@@ -1,4 +1,5 @@
 mod stackheap;
+mod controlflow;
 
 use std::mem;
 
@@ -28,6 +29,11 @@ fn main() {
     show_unsafe();
 
     stackheap::stack_and_heap();
+
+    controlflow::if_statement();
+    controlflow::while_and_loop();
+    controlflow::for_loop();
+    controlflow::match_statement();
 }
 
 fn say_hello() {
