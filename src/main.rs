@@ -1,5 +1,6 @@
 mod stackheap;
 mod controlflow;
+mod datastructure1;
 
 use std::mem;
 
@@ -34,6 +35,7 @@ fn main() {
     controlflow::while_and_loop();
     controlflow::for_loop();
     controlflow::match_statement();
+    datastructure1::data_structures_1();
 }
 
 fn say_hello() {
